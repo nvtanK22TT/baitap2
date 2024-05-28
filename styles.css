@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,900;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 200px;
+}
+body{
+    font-size: 14px;
+    font-family: Nunito;
+}
+h1 {
+    margin-bottom: 20px;
+}
+.Late-days {
+    margin-bottom: 20px;
+}
+
+.Hide-details {
+    display: none;
+}
+
+.show, .hide {
+    background-color: #cfc1d4;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100vh;
+    text-align: left;
+    border: 1px solid 10px;
+}
+
+.show:hover, .hide:hover {
+    background-color: #34033b;
+}
